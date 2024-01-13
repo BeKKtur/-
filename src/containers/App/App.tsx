@@ -1,7 +1,7 @@
 import './App.css';
 import Snacks from "../../components/Snacks";
-import drinks, {Drink, Drinks} from "../../components/Drinks";
-import React, {useState} from "react";
+import {Drink, Drinks} from "../../components/Drinks";
+import {useState} from "react";
 
 function App() {
     const [orders, setOrders] = useState<Drink[]>([]);

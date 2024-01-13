@@ -11,8 +11,15 @@
 }
 
 .order {
+  padding:  20px;
   border: 1px solid white;
   width: 300px;
+}
+
+.orders {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .menu {
@@ -34,4 +41,5 @@
 
 .menuBlock p {
   margin: 0;
+  margin-bottom: 5px;
 }
